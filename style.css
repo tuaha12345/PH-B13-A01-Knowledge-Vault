@@ -6,6 +6,15 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(0, 25, 49);
+}
+p{
+    font-size: 16px;
+    color: #627382;
+}
 .btn{
     text-decoration: none;
     padding: 12px 16px;
@@ -90,7 +99,7 @@ header{
 .banner-header .highlight{
     color: #469165;
 }
-.banner-paragraph{
+.banner-paragraph p{
     color: #FFFFFF;
     font-size: 18px;
     /* background-color: #a6d8a7; */
@@ -106,4 +115,51 @@ header{
 .banner-button .btn-secondary{
      background-color: transparent;
      border: 2px solid #FFFFFF;
+}
+
+.features-heading{
+    padding: 44px 0px;
+    text-align: center;
+    /* background-color: #d3f6d2; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.features-cards{
+    display: flex;
+    justify-content: center;
+    /* background-color: #a6d8a7; */
+    margin: 0 auto;
+    max-width: 1360px;
+    /* gap: 10px; */
+}
+
+.cards{
+    max-width: 322px;
+    margin:0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 34px;
+    /* background-color: chocolate; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+    border-radius: 8px;
+    gap: 10px;
+}
+.cards img{
+    background-color: #F95556;
+    padding: 25px;
+    border-radius: 50%;
+}
+.cards h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.cards p{
+    text-align: center;
 }
