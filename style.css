@@ -163,3 +163,41 @@ header{
 .cards p{
     text-align: center;
 }
+
+.soluction-container{
+    max-width: 1360px;
+    /* background-color: #F95556; */
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;;
+    
+    display: flex;
+    gap:60px;
+    /* background-color: #d3f6d2; */
+
+}
+.soluction-div{
+    /* background-color: #d3f6d2; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+.soluction-div h2{
+   padding: 16px 0px;
+ 
+}
+.soluction-div .soluction-p{
+    color: #469165;
+    font-weight: 600;
+}
+.soluction-div ul{
+   padding-top:40px;
+}
+.soluction-div li{
+   list-style: none;
+   display: flex;
+   gap: 10px;
+   padding-bottom: 16px;
+}
