@@ -201,3 +201,28 @@ header{
    gap: 10px;
    padding-bottom: 16px;
 }
+
+.thinkMore-div{ 
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 80px 40px ;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.thinkMore-div h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.thinkMore-div p {
+    margin-bottom: 24px;
+}
+.thinkMore-div .btn {
+    margin: 1px 0 16px; 
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
